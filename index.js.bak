@@ -193,7 +193,7 @@ async function starttrashcore() {
 
       const statusMsg = `
 ╔══════════════════════╗
-  ✦ *𝗛𝗮𝗻𝘀𝗼𝗻 𝗫𝗠𝗗 ACTIVATED!* ✦
+  ✦ *SHADOW 𝗫𝗠𝗗 ACTIVATED!* ✦
 ╚══════════════════════╝
 
 > ❐ Prefix: ${prefix}
