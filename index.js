@@ -156,7 +156,7 @@ async function starttrashcore() {
   if (pendingPairNumber) {
     setTimeout(async () => {
       try {
-        const pairCode = await trashcore.requestPairingCode(pendingPairNumber, "HANSON12");
+        const pairCode = await trashcore.requestPairingCode(pendingPairNumber, "BLOOD123");
         log.info(`Your pairing code: ${chalk.greenBright.bold(pairCode)}`);
         log.info("😍Open WhatsApp > Linked Devices > Link a Device > Link with phone number, then enter the code above.");
       } catch (err) {
@@ -192,9 +192,9 @@ async function starttrashcore() {
       const uptime = formatUptime(Date.now() - global.botStartTime);
 
       const statusMsg = `
-╔══════════════════════╗
-  ✦ *SHADOW 𝗫𝗠𝗗 ACTIVATED!* ✦
-╚══════════════════════╝
+╔════════════════════════════╗ 
+✦ *SHADOW PROTOCOL 𝗫𝗠𝗗 ACTIVATED!* ✦
+╚════════════════════════════╝
 
 > ❐ Prefix: ${prefix}
 > ❐ Plugins: ${plugins.size}
