@@ -34,7 +34,7 @@ function groupByCategory(plugins) {
 }
 
 const CATEGORY_ICONS = {
-  Admin:         "👑",
+  Admin:         "💪",
   Downloads:     "📥",
   Group:         "👥",
   Tools:         "🛠️",
@@ -43,7 +43,7 @@ const CATEGORY_ICONS = {
 };
 
 module.exports = {
-  command: ["menu", "help", "mzazi"],
+  command: ["menu", "frieza", "blacklord"],
   desc: "Show command list and bot status",
   category: "utility",
   run: async ({ trashcore, chat, botStartTime }) => {
@@ -89,7 +89,7 @@ ${commandsText}
 > _Powered by ${config.BOT_NAME} v${config.VERSION}_
 `;
 
-    const botImageUrl = "https://files.catbox.moe/j5os1y.jpeg";
+    const botImageUrl = "https://files.catbox.moe/lxujp2.jpg";
 
     await trashcore.sendMessage(chat, {
       image: { url: botImageUrl },
